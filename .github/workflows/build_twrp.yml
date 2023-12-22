@@ -14,7 +14,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/IMYdev/twrp_device_infinix_leo'
+        default: 'https://github.com/Vladimirpanferov7525/twrp_device_infinix_leo_fix_touch_test'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
