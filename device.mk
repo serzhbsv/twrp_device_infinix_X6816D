@@ -7,6 +7,8 @@
 
 LOCAL_PATH := device/infinix/leo
 
+PRODUCT_PLATFORM := ums512
+
 # A/B
 AB_OTA_PARTITIONS += \
     boot \
