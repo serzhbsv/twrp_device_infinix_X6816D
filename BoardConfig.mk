@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/infinix/leo
+DEVICE_PATH := device/infinix/X6816D
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -30,7 +30,7 @@ TARGET_BOARD_SUFFIX := _64
 TARGET_USES_64_BIT_BINDER := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := leo
+TARGET_OTA_ASSERT_DEVICE := X6816D
 
 # Bootloader
 TARGET_NO_BOOTLOADER := true
