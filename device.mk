@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := device/infinix/leo
+LOCAL_PATH := device/infinix/X6816D
 
 PRODUCT_PLATFORM := ums512
 
