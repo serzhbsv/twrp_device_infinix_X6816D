@@ -3,5 +3,3 @@
 /vendor/lib/modules/incrementalfs.ko:
 /vendor/lib/modules/trace_noschedule_bytedancy.ko:
 /vendor/lib/modules/trace_irqsoff_bytedancy.ko:
-/vendor/lib/modules/sprd_sensor.ko:
-/vendor/lib/modules/focaltech_fp.ko:
