@@ -153,7 +153,6 @@ TARGET_USES_MKE2FS := true
 TW_BRIGHTNESS_PATH := "/sys/class/leds/sc27xx:transsion/brightness"
 TW_DEFAULT_BRIGHTNESS := 1200
 TW_MAX_BRIGHTNESS := 2047
-TW_MTP_DEVICE := /dev/mtp_usb
 TW_Y_OFFSET := 80
 TW_H_OFFSET := -80
 TW_EXCLUDE_DEFAULT_USB_INIT := true
