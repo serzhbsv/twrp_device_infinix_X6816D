@@ -76,7 +76,7 @@ on init
     # Apply strict SELinux checking of PROT_EXEC on mmap/mprotect calls.
     write /sys/fs/selinux/checkreqprot 0
     # Fix touch
-    insmod /mnt/vendor/odmko/adaptive-ts.ko
+    insmod /vendor/firmware/adaptive-ts.ko
     start healthd
     chown system system /sys/bus/iio/devices/trigger0/name
     chown system system /sys/bus/iio/devices/iio:device1/buffer
