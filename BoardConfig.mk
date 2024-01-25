@@ -44,7 +44,7 @@ PRODUCT_PLATFORM := ums512
 AB_OTA_UPDATER := true
 
 # Kernel
-BOARD_KERNEL_CMDLINE := console=ttyS1,115200n8
+BOARD_KERNEL_CMDLINE := console=ttyS1,115200n8 androidboot.selinux=permissive
 TARGET_PREBUILT_KERNEL := $(DEVICE_PATH)/prebuilt/kernel
 TARGET_PREBUILT_DTB := $(DEVICE_PATH)/prebuilt/dtb.img
 BOARD_BOOTIMG_HEADER_VERSION := 2
