@@ -166,3 +166,16 @@ jobs:
       #    Target: ${{ github.event.inputs.BUILD_TARGET }}.img
      # env:
      #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+     
+    - name: Get short SHA
+      id: slug
+      run: echo "::set-output name=sha8::$(echo ${GITHUB_SHA} | cut -c1-8)"
+    
+    - uses: actions/upload-artifact@v3
+      with:
+        name: recovery-${{ steps.slug.outputs.sha8 }}
+        path: |
+          workspace/out/target/product/${{ github.event.inputs.DEVICE_NAME }}/${{ github.event.inputs.BUILD_TARGET }}.img
+          workspace/out/target/product/${{ github.event.inputs.DEVICE_NAME }}/*.zip
+          workspace/out/target/product/${{ github.event.inputs.DEVICE_NAME }}/*vendor*.img
+
